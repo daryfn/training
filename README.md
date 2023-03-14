@@ -1,2 +1,2 @@
-# train
+# training
 trial source code

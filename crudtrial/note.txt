@@ -1,0 +1,47 @@
+password bikin md5 ~~~~~DONE
+belom bisa pindah2 laman ~~~~~DONE
+halaman login belom ~~~~~DONE
+password halaman login bikin checklist showpassword
+date created & date Update belom berfungsi ~~~~~DONE
+notif alert belom muncul ~~~~~DONE
+dari halaman delete ga mau balik ke index.php ~~~~~DONE
+halaman login kalo password/username salah gabisa login ke index ~~~~~DONE
+bikin function tracking geolocation(lokasi, latitude, longitude) ~~~~~DONE
+bikin auto report login ke bot Telegram ~~~~~DONE
+tambah input id akun di tabel user_tracker ~~~~~DONE
+bikin tabelnya bisa muncul maps buat track akunnya ~~~~~DONE
+di database kalo login, data tracker nambah untuk setiap akun ~~~~~DONE
+bikin query ketika logout, status active di database di delete
+index map cuma tampil ketika status akun active di user_tracker ~~~~~DONE
+bikin kolom user_id di user_tracker bisa pairing dengan id di tabel user ~~~~~DONE
+data user lain walaupun ga login tetep muncul, tapi ga keluar koordinat mapsnya/ga keluar mapsnya
+bikin tabel user ada kolom status(active/inactive)
+maps muncul jika ada tombol di kolom action view detail ~~~~~DONE
+bikin function buat update id user_tracker pas logout ~~~~~DONE (But it Didn't work)
+
+alternatif:
+bikin kolom login
+bikin kolom logout dan ada tambahan kolom logout_date sama post ke bot Telegram
+kalo login value kolom login 1, kolom logout null/kosong
+kalo logout value kolom login tetep 1, kolom logout 1
+kalo buat nampilin akun mana aja yg masih online, diambil data yg value logoutnya masih null/kosong
+kesimpulannya kalo valuenya kolom logout masih null/kosong, berarti masih online akunnya
+
+
+atau:
+bikin tabel sendiri2 login, tracker, logout
+tapi jadi masalah ketika mau tampil maps nge-fetch data yg mana
+ketika mau tampil tabel di joins
+kata kunci bikin user_id last update/last input/last timestamp/last user_id data id/desc & etc
+
+Telegram Bot
+Bot Name = Trial
+Username = Server7991Bot
+Token    = 5885434176:AAEaQF0_ZXfCu30gWdYQTAooZePDGO_fcGs
+Link     = http://t.me/Server7991Bot
+Bot Group ID = -810564218 
+
+
+
+reference
+1. https://coderszine.com/demo/restaurant-system-php/items.php

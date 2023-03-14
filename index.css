@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    background-image: linear-gradient(to bottom right,midnightblue,purple);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(247, 208, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    margin: 14.5%;
+    font-size: 20px;
+    position: relative;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+h2 {
+    color: antiquewhite;
+
+}
+
+.watch {
+    color: antiquewhite;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    font-size: 28px;
+    background: none;
+    border-radius: 15px;
+    color: antiquewhite; 
+    border-color: rgba(147, 35, 221, 0.829);
+    border-style: groove;
+    cursor: pointer;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgb(247, 208, 255);  
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: antiquewhite;
+    color: rgb(88, 7, 112);  
+    text-shadow: 0 0 30px rgba(147, 35, 221, 0.829);
+}
+
+/* button:after {
+    text-shadow: 0 0 25px rgba(147, 35, 221, 0.829);
+    opacity: 0.5;
+}
+
+button:active::after {
+    opacity: 1;
+} */
+#lapTime {
+    color: rgb(168, 188, 255);
+}
+
